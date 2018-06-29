@@ -1,0 +1,90 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.tou{
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+img{
+	
+	width: 90px;
+	height: 90px;
+}
+.list{
+	display: block;
+	display: flex;
+	flex-direction: column;
+	/*background: red;*/
+}
+.list .item{
+	display: flex;
+	box-sizing: border-box;
+	padding: 10px;
+	height: 170px;
+	border-bottom: 1px solid #9D9D9D;
+}
+.list .item .left{
+	width: 30%;
+	height: 100%;
+}
+.list .item .right{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	height: 100%;
+}
+
+.list .item .right .shang{
+		height: 60%;
+
+		
+}
+.list .item .right .shang .up{
+	font-size: 22px;
+	font-weight: 800;
+	box-sizing: border-box;
+	padding-bottom: 10px;
+	
+}
+.list .item .right .zhong{
+	display: flex;
+	color: #444444;
+	}
+.list .item .right .zhong em{
+	font-style: normal;
+	box-sizing: border-box;
+	padding-right: 10px;
+	color: #444444;
+}
+
+.list .item .right .down{
+	display: flex;
+	color: #444444;
+	}
+.list .item .right .down em{
+	font-style: normal;
+	padding-right: 10px;
+}
+.list .item .right .xia{
+		height: 40%;
+		border-top: 1px dotted #C0C0C0;
+		padding-top: 10px;
+
+}
+.list .item .right .xia p{
+	padding-bottom: 4px;
+	
+}
+.list .item .right .xia p em{
+	display: block;
+	font-style: normal;
+	box-sizing: border-box;
+	margin-right: 5px;
+	padding: 3px;
+	line-height: 20px;
+	border-radius: 3px;
+}
